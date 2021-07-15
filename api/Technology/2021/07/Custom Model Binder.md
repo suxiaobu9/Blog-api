@@ -119,68 +119,72 @@
     }
   ```
 
-1. 直接在 model 的 property 加上 attribute
+## 方法 1
 
-   - LoginModel.cs
+直接在 model 的 property 加上 attribute
 
-   ```csharp
-   public class LoginModel
-   {
-       [DisplayName("帳號")]
-       public string Account { get; set; }
+- LoginModel.cs
 
-       [DisplayName("密碼")]
-       [DataType(DataType.Password)]
-       [ModelBinder(BinderType =typeof(SecureStringBinder))]
-       public SecureString Password { get; set; }
-   }
-   ```
+```csharp
+public class LoginModel
+{
+    [DisplayName("帳號")]
+    public string Account { get; set; }
 
-1. 在 ConfigureServices 中增加 binding
+    [DisplayName("密碼")]
+    [DataType(DataType.Password)]
+    [ModelBinder(BinderType =typeof(SecureStringBinder))]
+    public SecureString Password { get; set; }
+}
+```
 
-   - LoginModel.cs
+## 方法 2
 
-   ```csharp
-   public class LoginModel
-   {
-       [DisplayName("帳號")]
-       public string Account { get; set; }
+在 ConfigureServices 中增加 binding
 
-       [DisplayName("密碼")]
-       [DataType(DataType.Password)]
-       public SecureString Password { get; set; }
-   }
-   ```
+- LoginModel.cs
 
-   - SecureStringBinderProvider.cs
+```csharp
+public class LoginModel
+{
+    [DisplayName("帳號")]
+    public string Account { get; set; }
 
-   ```csharp
-      public IModelBinder GetBinder(ModelBinderProviderContext context)
-        {
-            if (context is null) throw new ArgumentNullException(nameof(context));
+    [DisplayName("密碼")]
+    [DataType(DataType.Password)]
+    public SecureString Password { get; set; }
+}
+```
 
-            if (context.Metadata.ModelType == typeof(SecureString))
-                return new BinderTypeModelBinder(typeof(SecureStringBinder));
+- SecureStringBinderProvider.cs
 
-            return null;
-        }
-   ```
+```csharp
+   public IModelBinder GetBinder(ModelBinderProviderContext context)
+     {
+         if (context is null) throw new ArgumentNullException(nameof(context));
 
-   - Startup.css
+         if (context.Metadata.ModelType == typeof(SecureString))
+             return new BinderTypeModelBinder(typeof(SecureStringBinder));
 
-   ```csharp
-    public class Startup
-    {
-        ...
+         return null;
+     }
+```
 
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllersWithViews(x=> {
-                x.ModelBinderProviders.Insert(0, new SecureStringBinderProvider());
-            });
-        }
+- Startup.css
 
-        ...
-    }
+```csharp
+ public class Startup
+ {
+     ...
 
-   ```
+     public void ConfigureServices(IServiceCollection services)
+     {
+         services.AddControllersWithViews(x=> {
+             x.ModelBinderProviders.Insert(0, new SecureStringBinderProvider());
+         });
+     }
+
+     ...
+ }
+
+```
