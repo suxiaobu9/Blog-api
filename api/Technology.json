@@ -3,7 +3,7 @@
     "id": 10,
     "title": "移除特殊名稱的資料夾",
     "date": "2021/07/14",
-    "memo": [],
+    "memo": ["dir /x", "rename {0} {1}"],
     "href": "api/Technology/2021/07/移除特殊名稱的資料夾.md"
   },
   {
