@@ -11,13 +11,13 @@
 1. Angular 開發工具
 
    ```cmd
-       npm i -g @angular/cli
+   npm i -g @angular/cli
    ```
 
 2. 保哥的包的 angular 擴充包
 
    ```cmd
-       code --install-extension "doggy8088.angular-extension-pack"
+   code --install-extension "doggy8088.angular-extension-pack"
    ```
 
 ---
@@ -45,19 +45,19 @@
 1. 雙向繫結 `[(ngModel)]='data'`
 
    ```ts
-        // *.module.ts
-        ...
-        import { FormsModule } from "@angular/forms";
+      // *.module.ts
+      ...
+      import { FormsModule } from "@angular/forms";
 
-        @ngModule({
+      @ngModule({
+         ...
+         imports:[
             ...
-            imports:[
-                ...
-                FormsModule,
-                ...
-            ]
+            FormsModule,
             ...
-        })
+         ]
+         ...
+      })
    ```
 
 ---
@@ -95,6 +95,7 @@
 
 1. Can't bind to 'data-title' since it isn't a known property of 'img'
    ![image](https://user-images.githubusercontent.com/37999690/125964504-4c129bd5-db05-41a7-b3b5-73403a1c93e9.png)
+
    ![image](https://user-images.githubusercontent.com/37999690/125964733-6de25fe3-6f0a-489d-92b6-789fa7ca084a.png)
 
 ## [ngStyle]
@@ -130,33 +131,33 @@
 
 ## \*ngIf
 
-```html
-<input type="text" (keyup)="textKeyup($event)" #tKeyword />
-<label *ngIf="tKeyword.value.length % 2 === 0">{{ tKeyword.value }}</label>
-```
+- ```html
+  <input type="text" (keyup)="textKeyup($event)" #tKeyword />
+  <label *ngIf="tKeyword.value.length % 2 === 0">{{ tKeyword.value }}</label>
+  ```
 
 ## [ngSwitch]
 
-```html
-<label [ngSwitch]="1 === 1">
-  <p *ngSwitchCase="true">1</p>
-  <p *ngSwitchCase="false">2</p>
-  <p *ngSwitchDefault>3</p>
-  {{ tKeyword.value }}</label
->
-```
+- ```html
+  <label [ngSwitch]="1 === 1">
+    <p *ngSwitchCase="true">1</p>
+    <p *ngSwitchCase="false">2</p>
+    <p *ngSwitchDefault>3</p>
+    {{ tKeyword.value }}
+  </label>
+  ```
 
 ## \*ngFor
 
-```html
-<input type="text" (keyup)="textKeyup($event)" #tKeyword />
-<label *ngFor="let item of ['1', '2', '3']; let idx = index">
-  {{ idx }} {{ tKeyword.value }}</label
->
-```
+- ```html
+  <input type="text" (keyup)="textKeyup($event)" #tKeyword />
+  <label *ngFor="let item of ['1', '2', '3']; let idx = index">
+    {{ idx }} {{ tKeyword.value }}
+  </label>
+  ```
 
 ## [innerHTML]
 
-```html
-<div [innerHTML="<label> this is html </label>" ]></div>
-```
+- ```html
+  <div [innerHTML="<label> this is html </label>" ]></div>
+  ```
