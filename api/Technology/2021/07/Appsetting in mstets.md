@@ -1,6 +1,4 @@
-# Appsetting in mstets
-
-## 環境
+# 環境
 
 - .net 5 MVC or API (不重要，有 appsettings.json 就好)
 
