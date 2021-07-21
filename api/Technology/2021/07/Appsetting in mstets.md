@@ -40,7 +40,7 @@ namespace AppsettingDemo.Test
             IConfigurationRoot config = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", false) // optional = false 代表此檔案是必要的，如果檔案不存在的話就會報錯
                 .AddJsonFile("appsettings.Development.json", true)
-                .AddUserSecrets("136c518e-7f41-48ab-b641-3facb3f2782c") // 參考csproj的UserSecretsId，沒有設定就不用
+                .AddUserSecrets("136c****-****-****-****-*******2782c") // 參考csproj的UserSecretsId，沒有設定就不用
                 .Build();
 
             config.GetSection("Employee").Bind(employee); // 將資料bind進model
