@@ -67,17 +67,17 @@
 
 1. 更改 package.json 後儲存 ，讓 angular 跑完可以自動開啟網頁
 
-   ```json
-   {
-     ...
-     "scripts": {
-       ...
-       "start": "ng serve -o",
-       ...
-     },
-     ...
-   }
-   ```
+```json
+{
+  ...
+  "scripts": {
+    ...
+    "start": "ng serve -o",
+    ...
+  },
+  ...
+}
+```
 
 1. 在 vs code 中開啟終端機(快捷鍵 `Ctrl+`\` )用終端機把 angular 跑起來
 

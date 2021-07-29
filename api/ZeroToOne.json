@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "title": "初學 Angular (二) VS Code 簡介",
+    "date": "2021/07/29",
+    "memo": [],
+    "href": "api/ZeroToOne/2021/07/初學 Angular (二) VS Code 簡介.md"
+  },
+  {
     "id": 1,
     "title": "初學 Angular (一) 環境設定",
     "date": "2021/07/29",
