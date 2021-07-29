@@ -2,8 +2,9 @@
 
 1. 安裝 Chocolatey
 
+   - Powershell 管理者權限
+
    ```powershell
-   # Powershell 管理者權限
    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
 
@@ -14,47 +15,51 @@
    1. nodejs
    1. vs code
 
+   - Powershell 管理者權限
+
    ```powershell
-    # Powershell 管理者權限
-    choco install -y GoogleChrome git nodejs visualstudiocode
+   choco install -y GoogleChrome git nodejs visualstudiocode
    ```
 
 1. 安裝 angular cli
 
-   ```cmd
-    REM cmd
-    npm i -g @angular/cli
-   ```
+   - cmd
+
+     ```cmd
+     npm i -g @angular/cli
+     ```
 
 1. 安裝 vs Code 擴充套件包
 
-   ```cmd
-   REM cmd
-   REM 保哥的angular擴充套件包
-   code --install-extension "doggy8088.angular-extension-pack"
-   ```
+   - cmd
+
+     ```cmd
+     REM 保哥的angular擴充套件包
+     code --install-extension "doggy8088.angular-extension-pack"
+     ```
 
 1. 新增一個 angular 專案
 
-   ```cmd
-   REM cmd
+   - cmd
 
-   cd C:\
-   mkdir CodeSource
-   cd C:\CodeSource
-   ng new demo1
+     ```cmd
+     cd C:\
+     mkdir CodeSource
+     cd C:\CodeSource
+     ng new demo1
 
-   REM Would you like to add Angular routing? y
-   REM Which stylesheet format would you like to use? CSS
-   ```
+     Would you like to add Angular routing? y
+     Which stylesheet format would you like to use? CSS
+     ```
 
 1. 進入資料夾，開啟 vscode
 
-   ```cmd
-   REM cmd
-   cd demo1
-   code .
-   ```
+   - cmd
+
+     ```cmd
+     cd demo1
+     code .
+     ```
 
    這邊可以發現，之前下指令裝的 angular 擴充套件包安裝成功
 
