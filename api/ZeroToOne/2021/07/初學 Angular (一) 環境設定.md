@@ -34,7 +34,7 @@
    - cmd
 
      ```cmd
-     REM 保哥的angular擴充套件包
+     保哥的angular擴充套件包
      code --install-extension "doggy8088.angular-extension-pack"
      ```
 
