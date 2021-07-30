@@ -83,7 +83,7 @@
 
    ```powershell
     # powershell
-    npm run start
+    npm start
    ```
 
    ![image](https://user-images.githubusercontent.com/37999690/127257137-88633b68-dca6-4e86-8b16-1329c9c6cea7.png)
