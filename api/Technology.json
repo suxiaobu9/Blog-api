@@ -1,5 +1,12 @@
 [
   {
+    "id": 14,
+    "title": "Docker Containers 之間相互溝通",
+    "date": "2021/08/04",
+    "memo": ["docker network ls", "docker network inspect bridge"],
+    "href": "api/Technology/2021/08/Docker Containers 之間相互溝通.md"
+  },
+  {
     "id": 13,
     "title": "EF Core Db first 筆記",
     "date": "2021/07/23",
