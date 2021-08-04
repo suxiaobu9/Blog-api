@@ -17,7 +17,7 @@ var personalInfos = [
 ];
 ```
 
-### $.map() - 取得特定欄位
+## $.map() - 取得特定欄位
 
 ```js
 var nameList = $.map(personalInfos, function (item, index) {

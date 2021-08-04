@@ -5,7 +5,7 @@
 
 ## 資料夾結構
 
-![dirStructor](https://user-images.githubusercontent.com/37999690/125182560-9d9d1080-e241-11eb-8810-79dac7c64138.png)
+[![image](https://user-images.githubusercontent.com/37999690/125182560-9d9d1080-e241-11eb-8810-79dac7c64138.png "image")]{https://user-images.githubusercontent.com/37999690/125182560-9d9d1080-e241-11eb-8810-79dac7c64138.png}
 
 ## 檔案內容
 

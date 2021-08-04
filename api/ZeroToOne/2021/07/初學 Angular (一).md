@@ -63,7 +63,7 @@
 
    這邊可以發現，之前下指令裝的 angular 擴充套件包安裝成功
 
-   ![image](https://user-images.githubusercontent.com/37999690/127256465-c020da75-c115-4a57-859a-1a92438cac1b.png)
+   [![image](https://user-images.githubusercontent.com/37999690/127256465-c020da75-c115-4a57-859a-1a92438cac1b.png "image")](https://user-images.githubusercontent.com/37999690/127256465-c020da75-c115-4a57-859a-1a92438cac1b.png)
 
 1. 更改 package.json 後儲存 ，讓 angular 跑完可以自動開啟網頁
 
@@ -86,11 +86,11 @@
     npm start
    ```
 
-   ![image](https://user-images.githubusercontent.com/37999690/127257137-88633b68-dca6-4e86-8b16-1329c9c6cea7.png)
+   [![image](https://user-images.githubusercontent.com/37999690/127257137-88633b68-dca6-4e86-8b16-1329c9c6cea7.png "image")](https://user-images.githubusercontent.com/37999690/127257137-88633b68-dca6-4e86-8b16-1329c9c6cea7.png)
 
    因為改 `package.json` 的關係，瀏覽器會自動開啟初始 angular 頁面
 
-   ![image](https://user-images.githubusercontent.com/37999690/127256178-90d1aedf-4b55-4ff5-b593-e572f6de3d38.png)
+   [![image](https://user-images.githubusercontent.com/37999690/127256178-90d1aedf-4b55-4ff5-b593-e572f6de3d38.png "image")](https://user-images.githubusercontent.com/37999690/127256178-90d1aedf-4b55-4ff5-b593-e572f6de3d38.png)
 
 ## 資料夾內容
 
@@ -187,7 +187,7 @@
 
 1. src\ `favicon.icon`
 
-   ![image](https://user-images.githubusercontent.com/37999690/127420930-746738b6-41ae-4a81-a3bb-053819212701.png)
+   [![image](https://user-images.githubusercontent.com/37999690/127420930-746738b6-41ae-4a81-a3bb-053819212701.png "image")](https://user-images.githubusercontent.com/37999690/127420930-746738b6-41ae-4a81-a3bb-053819212701.png)
 
 1. src\ `polyfills.ts`
 

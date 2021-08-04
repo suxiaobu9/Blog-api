@@ -19,12 +19,12 @@
 
    > 若是出現
    >
-   > ![image](https://user-images.githubusercontent.com/37999690/126607840-0c29b2cb-69d5-40dc-9b11-e3c57b8a9a1b.png)
+   > [![image](https://user-images.githubusercontent.com/37999690/126607840-0c29b2cb-69d5-40dc-9b11-e3c57b8a9a1b.png "image")](https://user-images.githubusercontent.com/37999690/126607840-0c29b2cb-69d5-40dc-9b11-e3c57b8a9a1b.png)
    >
    > 代表需要重 build 一下，或是沒有加入 Microsoft.EntityFrameworkCore.Design
 
 3. 執行完成後會多幾個檔案，包含 EFTestContext 以及和資料庫相對應的 cs model
-   ![image](https://user-images.githubusercontent.com/37999690/126612695-17851911-36f9-439d-bd92-2031e37e4cf6.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126612695-17851911-36f9-439d-bd92-2031e37e4cf6.png "image")](https://user-images.githubusercontent.com/37999690/126612695-17851911-36f9-439d-bd92-2031e37e4cf6.png)
 
 4. 將 Context 註冊進 Startup
 
@@ -132,11 +132,11 @@
 
    ```
 
-   ![image](https://user-images.githubusercontent.com/37999690/126640823-32784de6-c293-4fa4-bd42-04d87b35b024.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126640823-32784de6-c293-4fa4-bd42-04d87b35b024.png "image")](https://user-images.githubusercontent.com/37999690/126640823-32784de6-c293-4fa4-bd42-04d87b35b024.png)
 
-   ![image](https://user-images.githubusercontent.com/37999690/126641589-f9a84d0d-ddc9-466f-8ebe-950a9b79aae4.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126641589-f9a84d0d-ddc9-466f-8ebe-950a9b79aae4.png "image")](https://user-images.githubusercontent.com/37999690/126641589-f9a84d0d-ddc9-466f-8ebe-950a9b79aae4.png)
 
-   ![image](https://user-images.githubusercontent.com/37999690/126642475-f9d9ad4d-7dde-4bde-aad7-0f24b09439ca.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126642475-f9d9ad4d-7dde-4bde-aad7-0f24b09439ca.png "image")](https://user-images.githubusercontent.com/37999690/126642475-f9d9ad4d-7dde-4bde-aad7-0f24b09439ca.png)
 
 2. Join 一張 Table
 
@@ -169,8 +169,8 @@
    }
    ```
 
-   ![image](https://user-images.githubusercontent.com/37999690/126725804-298fe272-ca6a-431d-bc95-9f560a89a38e.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126725804-298fe272-ca6a-431d-bc95-9f560a89a38e.png "image")](https://user-images.githubusercontent.com/37999690/126725804-298fe272-ca6a-431d-bc95-9f560a89a38e.png)
 
-   ![image](https://user-images.githubusercontent.com/37999690/126726218-0f445f5b-0718-43cc-bde2-b387032eff18.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126726218-0f445f5b-0718-43cc-bde2-b387032eff18.png "image")](https://user-images.githubusercontent.com/37999690/126726218-0f445f5b-0718-43cc-bde2-b387032eff18.png)
 
-   ![image](https://user-images.githubusercontent.com/37999690/126726690-e2dd309b-f398-4623-9398-6375cf53667d.png)
+   [![image](https://user-images.githubusercontent.com/37999690/126726690-e2dd309b-f398-4623-9398-6375cf53667d.png "image")](https://user-images.githubusercontent.com/37999690/126726690-e2dd309b-f398-4623-9398-6375cf53667d.png)

@@ -20,13 +20,13 @@
     }
   ```
 
-  ![without Model Binding](https://user-images.githubusercontent.com/37999690/125567870-bac32b80-8509-42a4-a929-d7dda2139f91.png)
+  [![image](https://user-images.githubusercontent.com/37999690/125567870-bac32b80-8509-42a4-a929-d7dda2139f91.png "image")](https://user-images.githubusercontent.com/37999690/125567870-bac32b80-8509-42a4-a929-d7dda2139f91.png)
 
 ### 沒有 Model Bind 的狀況
 
 - 因為 Browser 傳回後端的是 string，而 Model 的 Password 是 SecureString，所以接不到
 
-  ![controller with no binding](https://user-images.githubusercontent.com/37999690/125568399-4ccaac3b-690e-4e07-9793-f19d18ed1ec4.png)
+  [![image](https://user-images.githubusercontent.com/37999690/125568399-4ccaac3b-690e-4e07-9793-f19d18ed1ec4.png "image")](https://user-images.githubusercontent.com/37999690/125568399-4ccaac3b-690e-4e07-9793-f19d18ed1ec4.png)
 
 ### 增加 SecureString 的 Binding
 
@@ -67,7 +67,7 @@
 
 - Controller 接收到 Password，且可以從 SecureString 轉成 String
 
-  ![image](https://user-images.githubusercontent.com/37999690/125569233-6f032740-792e-4794-a1bd-f1c486057539.png)
+  [![image](https://user-images.githubusercontent.com/37999690/125569233-6f032740-792e-4794-a1bd-f1c486057539.png "image")](https://user-images.githubusercontent.com/37999690/125569233-6f032740-792e-4794-a1bd-f1c486057539.png)
 
 ## .Net 5 MVC
 

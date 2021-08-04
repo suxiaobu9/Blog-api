@@ -66,7 +66,7 @@
 
 1. 執行指令 `npm run start`
 
-   ![image](https://user-images.githubusercontent.com/37999690/125931164-20092dba-7945-4c0d-9979-f59049245319.png)
+   [![image](https://user-images.githubusercontent.com/37999690/125931164-20092dba-7945-4c0d-9979-f59049245319.png "image")](https://user-images.githubusercontent.com/37999690/125931164-20092dba-7945-4c0d-9979-f59049245319.png)
 
 2. 建立新專案 `ng new {project-name}`
    - project-name 輸入英文、數字、dash(減號)
@@ -87,16 +87,16 @@
 ## 加入靜態檔案
 
 - 可以直接扔資料夾路徑給他  
-   ![image](https://user-images.githubusercontent.com/37999690/125929605-a73dccf8-3acf-4aa2-ae39-7a75c81739e1.png)
+   [![image](https://user-images.githubusercontent.com/37999690/125929605-a73dccf8-3acf-4aa2-ae39-7a75c81739e1.png "image")](https://user-images.githubusercontent.com/37999690/125929605-a73dccf8-3acf-4aa2-ae39-7a75c81739e1.png)
 
 ---
 
 ## 處理一些東西
 
 1. Can't bind to 'data-title' since it isn't a known property of 'img'
-   ![image](https://user-images.githubusercontent.com/37999690/125964504-4c129bd5-db05-41a7-b3b5-73403a1c93e9.png)
+   [![image](https://user-images.githubusercontent.com/37999690/125964504-4c129bd5-db05-41a7-b3b5-73403a1c93e9.png "image")](https://user-images.githubusercontent.com/37999690/125964504-4c129bd5-db05-41a7-b3b5-73403a1c93e9.png)
 
-   ![image](https://user-images.githubusercontent.com/37999690/125964733-6de25fe3-6f0a-489d-92b6-789fa7ca084a.png)
+   [![image](https://user-images.githubusercontent.com/37999690/125964733-6de25fe3-6f0a-489d-92b6-789fa7ca084a.png "image")](https://user-images.githubusercontent.com/37999690/125964733-6de25fe3-6f0a-489d-92b6-789fa7ca084a.png)
 
 ## [ngStyle]
 
