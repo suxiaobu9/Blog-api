@@ -1,5 +1,19 @@
 [
   {
+    "id": 16,
+    "title": "在.net core中使用Quatuz.net",
+    "date": "2021/09/01",
+    "memo": [],
+    "href": "api/Technology/2021/09/在.net core中使用Quatuz.net.md"
+  },
+  {
+    "id": 16,
+    "title": "重灌後Visual Studio沒辦法還原Nuget套件",
+    "date": "2021/09/01",
+    "memo": ["https://api.nuget.org/v3/index.json"],
+    "href": "api/Technology/2021/09/重灌後Visual Studio沒辦法還原Nuget套件.md"
+  },
+  {
     "id": 15,
     "title": "Git一次性Push至多個Remote Repository",
     "date": "2021/08/06",
