@@ -159,15 +159,18 @@ public class LoginModel
 - SecureStringBinderProvider.cs
 
 ```csharp
-   public IModelBinder GetBinder(ModelBinderProviderContext context)
-     {
-         if (context is null) throw new ArgumentNullException(nameof(context));
+public class SecureStringBinderProvider: IModelBinderProvider
+{
+    public IModelBinder GetBinder(ModelBinderProviderContext context)
+    {
+        if (context is null) throw new ArgumentNullException(nameof(context));
 
-         if (context.Metadata.ModelType == typeof(SecureString))
-             return new BinderTypeModelBinder(typeof(SecureStringBinder));
+        if (context.Metadata.ModelType == typeof(SecureString))
+            return new BinderTypeModelBinder(typeof(SecureStringBinder));
 
-         return null;
-     }
+        return null;
+    }
+}
 ```
 
 - Startup.css
